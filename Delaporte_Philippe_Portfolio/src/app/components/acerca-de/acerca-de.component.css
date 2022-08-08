@@ -1,8 +1,8 @@
 .row{
-    padding: 20px;
+    padding: 1px;
 }
 div{
-    background-color: rgb(32, 111, 214);
+    background-color: #0066ff;
     text-align: center;
 }
 /*Etiqueta del nombre*/
@@ -28,7 +28,7 @@ div{
         width: 25%;
         border-radius: 50%;
         box-shadow: 3px 3px 3px cornflowerblue;
-        left: 37.5%;
+        left: 10%;
         top: 200px;
     }
 }
