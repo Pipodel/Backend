@@ -11,12 +11,24 @@ div{
 
 }
 /*Estilo de foto de perfil*/
-@media(min-width: 576px){
+@media(max-width: 576px){
 #fotodeperfil{
     position:absolute;
-    width: 15%;
+    width: 20%;
     border-radius: 50%;
     box-shadow: 3px 3px 3px cornflowerblue;
+    left: 7%;
+  
+    
 }
 }
-
+@media(min-width: 576px){
+    #fotodeperfil{
+        position:absolute;
+        width: 25%;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px cornflowerblue;
+        left: 37.5%;
+        top: 200px;
+    }
+}
