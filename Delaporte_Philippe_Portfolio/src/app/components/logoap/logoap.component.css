@@ -1,3 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #logoap{
     width: 150px;
+}
+img{
+    width: 50px;
 }
