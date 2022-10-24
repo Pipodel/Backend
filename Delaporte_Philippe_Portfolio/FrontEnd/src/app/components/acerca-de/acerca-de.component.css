@@ -14,10 +14,10 @@ div{
 @media(min-width: 576px){
 #fotodeperfil{
     position:absolute;
-    width: 16%;
+    width: 15%;
     border-radius: 50%;
     box-shadow: 3px 3px 3px cornflowerblue;
-    left: 40%;
+    left: 3%;
     top: 160px;
    
     

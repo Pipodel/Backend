@@ -27,7 +27,7 @@ public class SExperiencia {
     }
     
     public Optional<Experiencia> getByNombreE(String nombreE){
-        return rExperiencia.findByNombrE(nombreE);        
+        return rExperiencia.findByNombreE(nombreE);        
     }
     public void save(Experiencia expe){
         rExperiencia.save(expe);
