@@ -5,11 +5,13 @@ div{
     background-color: #0066ff;
     text-align: center;
 }
-/*Etiqueta del nombre*/
+
+/*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-
+    margin-top: 30%;
 }
+
 /*Estilo de foto de perfil*/
 @media(min-width: 576px){
 #fotodeperfil{

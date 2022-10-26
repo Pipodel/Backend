@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.portfolio.Delaporte.Entity;
 
 import javax.persistence.Entity;
@@ -17,13 +13,17 @@ public class Experiencia {
     private String nombreE;
     private String descripcionE;
     
-    //constructores
+    //Constructores
+
+    public Experiencia() {
+    }
+
     public Experiencia(String nombreE, String descripcionE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
     }
     
-    //getter y setter
+    //Getters and setters
 
     public int getId() {
         return id;
@@ -48,7 +48,5 @@ public class Experiencia {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
-    
-    
     
 }

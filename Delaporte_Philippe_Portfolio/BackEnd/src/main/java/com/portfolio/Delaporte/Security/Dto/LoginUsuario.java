@@ -1,14 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.portfolio.Delaporte.Security.Dto;
 
 import javax.validation.constraints.NotBlank;
 
 /**
  *
- * @author Luli
+ * @author Usuario
  */
 public class LoginUsuario {
     @NotBlank
@@ -16,10 +12,7 @@ public class LoginUsuario {
     @NotBlank
     private String password;
     
-    //@NotBlank
-    //private String email;
-    
-    //Getter and setter
+    //Getter & Setter
 
     public String getNombreUsuario() {
         return nombreUsuario;

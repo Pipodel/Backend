@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.portfolio.Delaporte.Security.Entity;
 
 import java.util.HashSet;
@@ -47,7 +43,7 @@ public class Usuario {
         this.password = password;
     }
     
-    //Getters y Setters
+    //Getter Y Setter
 
     public int getId() {
         return id;
