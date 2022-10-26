@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Delaporte_Philippe_Portfolio'`, () => {
+  it(`should have as title 'proyectoFinal'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Delaporte_Philippe_Portfolio');
+    expect(app.title).toEqual('proyectoFinal');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Delaporte_Philippe_Portfolio app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('proyectoFinal app is running!');
   });
 });
