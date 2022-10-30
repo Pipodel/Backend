@@ -18,7 +18,7 @@ div{
     
     border-radius: 50%;
     box-shadow: 3px 3px 3px cornflowerblue;
-           
+    
 }
     .descripcion{
         display: flex;
@@ -26,13 +26,13 @@ div{
         align-items: center;
     }
 }
-@media(max-width: 576px){
+@media(max-width: 575px){
     #fotodeperfil{
         position:absolute;
-        width: 20%;
+        width: 30%;
         border-radius: 50%;
         box-shadow: 3px 3px 3px rgb(0, 0, 0);
-        left: 40%;
-        top: 170px;
+        left: 33%;
+        top: 150px;
     }
 }
