@@ -20,10 +20,11 @@ export class PersonaService {
   public detail(id: number): Observable<persona>{
     return this.httpClient.get<persona>(this.URL + `detail/${id}`);
   }
-
+/*
   public save(Persona: persona): Observable<any>{
     return this.httpClient.post<any>(this.URL + 'create', Persona);
   }
+*/
   
 
   public update(id: number, Persona: persona): Observable<any>{
