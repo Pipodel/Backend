@@ -8,8 +8,10 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
+  //URL = environment.URL + 'educacion/';
+  authURL = 'https://backenddelaporte.herokuapp.com/educacion/';
   URL = environment.URL + 'educacion/';
-
+  
   constructor(private httpClient : HttpClient) { }
 
   public lista(): Observable<Educacion[]>{

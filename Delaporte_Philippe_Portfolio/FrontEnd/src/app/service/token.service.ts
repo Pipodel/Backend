@@ -19,7 +19,7 @@ export class TokenService {
     window.sessionStorage.setItem(TOKEN_KEY, token);
   }
 
-  public getToken():string {
+  public getToken(): string {
     return sessionStorage.getItem(TOKEN_KEY)!;
   }
 

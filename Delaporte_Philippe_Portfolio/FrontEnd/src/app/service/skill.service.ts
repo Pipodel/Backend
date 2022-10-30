@@ -9,7 +9,11 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  URL = environment.URL + 'skill/';
+
+  //URL = environment.URL + 'skill/';
+
+  authURL = 'https://backenddelaporte.herokuapp.com/skill/';
+  URL = environment.URL + 'educacion/';
   
   constructor(private httpClient: HttpClient) { }
 

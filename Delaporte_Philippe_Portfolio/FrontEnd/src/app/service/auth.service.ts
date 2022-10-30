@@ -10,7 +10,15 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
+/*
   URL = environment.URL + 'auth/';
+//authURL = 'http://localhost:8080/auth/';
+*/
+
+  authURL = 'https://backenddelaporte.herokuapp.com/auth/';
+
+  URL = environment.URL + 'auth/';
+
 
   constructor(private httpClient: HttpClient) { }
 
@@ -19,6 +27,6 @@ export class AuthService {
  }
 
  public login(loginUsuario: LoginUsuario): Observable<JwtDto>{
-   return this.httpClient.post<JwtDto>(this.URL + 'login', loginUsuario)
+   return this.httpClient.post<JwtDto>(this.URL + 'login', loginUsuario);
  }
 }
