@@ -15,11 +15,11 @@ public class Persona {
     private int id;
     
     @NotNull
-    @Size(min = 1, max = 50, message = "no cumple con la longitud")
+    @Size(min = 1, max = 50, message = "no cumple con la longitud requerida")
     private String nombre;
     
     @NotNull
-    @Size(min = 1, max = 50, message = "no cumple con la longitud")
+    @Size(min = 1, max = 50, message = "no cumple con la longitud requerida")
     private String apellido;
     
     @NotNull
