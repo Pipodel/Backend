@@ -13,7 +13,7 @@ export class SkillService {
   //URL = environment.URL + 'skill/';
 
   authURL = 'https://backenddelaporte.herokuapp.com/skill/';
-  URL = environment.URL + 'educacion/';
+  URL = environment.URL + 'skill/';
   
   constructor(private httpClient: HttpClient) { }
 
